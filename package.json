@@ -1,5 +1,5 @@
 {
-  "name": "cncf-interactive-landscape",
+  "name": "kulado-interactive-landscape",
   "version": "1.0.0",
   "description": "Interactive visualization of cloud native projects and products",
   "engines": {
@@ -10,7 +10,7 @@
     "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build",
     "latest": "npm install interactive-landscape@latest"
   },
-  "author": "CNCF",
+  "author": "KULADO",
   "license": "Apache-2.0",
   "dependencies": {
     "interactive-landscape": "1.0.391"
@@ -18,6 +18,6 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cncf/landscape"
+    "url": "https://github.com/kulado/landscape"
   }
 }
